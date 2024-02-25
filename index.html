@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name = "description" content="Ключевые слова">
+    <meta name = "keywords" content="Поисковые слова">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./assets/img/favicon/manifest.json">
+    <link rel="mask-icon" href="./assets/img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/aos.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <title>Trip & Mind</title>
+</head>
+<body>
+
+<div class="intro">
+    <div class="container">
+
+        <div class="header" id="header">
+            <a href="index.html"><img class="header-logo" src="assets/img/Header/Header-logo.png" alt="logo"></a>
+
+            <div class="header-nav">
+                <ul class = "header-nav__items">
+                    <li class="header-spy"><a  class = "header-nav__item" data-scroll = "#product" href="#product">Все туры</a></li>
+                    <li class="header-spy"><a  class = "header-nav__item" data-scroll = "#reviews" href="#reviews">Отзывы</a></li>
+                    <li class="header-spy"><a  class = "header-nav__item" data-scroll = "#contacts" href="#contacts">Контакты</a></li>
+                </ul>
+            </div>
+
+            <img class="header-burger" src="./assets/img/Header/burger.png" alt="burger">
+        </div>
+
+        <div class="inner-title" data-aos="fade-right">
+            <h1>Открой для себя Новую Ирландию</h1>
+        </div>
+
+        <div class="inner-subtitle" data-aos="fade-right">
+            <h3>Авторские туры по экзотическим уголкам от Ивана Иванова</h3>
+        </div>
+
+        <div class="intro-buttons">
+
+            <button class="intro-buttons__button">Оставить заявку</button>
+
+            <div class="intro--buttons__plays">
+                <img class="intro--buttons__play" src="./assets/img/intro/play.png" alt="play">
+                <div class="intro--buttons__play__title">Посмотрите видео-отчет 2018-2019</div>
+            </div>
+
+        </div>
+
+        <div class="footer--inner">
+                <div class="footer--inner__social">
+
+                    <div class="footer--inner__social__title"><p>Подписывайтесь в соцсетях</p></div>
+
+                    <div class="footer--inner__social__icon">
+                        <a href="#"><img class = "footer--inner__social__item" src="./assets/img/intro/youtube.png" alt="youtube"></a>
+                        <a href="#"><img class = "footer--inner__social__item" src="./assets/img/intro/fb.png" alt="facebook"></a>
+                        <a href="#"><img class = "footer--inner__social__item" src="./assets/img/intro/twitter.png" alt="twitter"></a>
+                        <a href="#"><img class = "footer--inner__social__item" src="./assets/img/intro/vk.png" alt="vk"></a>
+                    </div>
+
+                </div>
+
+                <div class="footer--inner__preview">
+
+                    <a href="#"><img class="footer--inner__preview__item" src="./assets/img/intro/1.png" alt="pic"></a>
+                    <a href="#"><img class="footer--inner__preview__item" src="./assets/img/intro/2.png" alt="pic"></a>
+                    <a href="#"><img class="footer--inner__preview__item" src="./assets/img/intro/3.png" alt="pic"></a>
+
+                </div>
+        </div>
+
+    </div><!-- Container -->
+</div><!-- Intro -->
+
+<div class="product" data-scrollspy = "#product"  id="product">
+    <div class="container">
+        <div class="product--item">
+
+            <div class="products--items__img" data-aos="fade-right">
+                <img src="./assets/img/product/1.jpg" alt="product">
+            </div>
+
+            <div class="product--items__info">
+                <div class="product--items__title">
+                    <p>Посмотрите все направления туров</p>
+                </div>
+                <div class="product--items__text">
+                    <p>Берега океанов и дикие пляжи с редкими породами деревьев. Местная архитектура и первозданный вид дикой природы</p>
+                </div>
+
+                <button class="product--items__button">Смотреть все</button>
+            </div>
+
+        </div>
+    </div>
+</div> <!-- Product -->
+
+<div class="form" data-scrollspy = "#contacts" id="contacts">
+    <div class="container">
+
+        <div class="form-items">
+
+            <div class="form--info">
+
+                <div class="form-title">
+                    <p>Оставьте заявку на бесплатную консультацию</p>
+                </div>
+
+                <div class="form-text">
+                    <p>Мы перезвоним вам в ближайшее время</p>
+                </div>
+
+            </div>
+
+
+            <form class="form-main" action="/" name = "form">
+                <input class="form-main__input" type="text" placeholder="Ваше имя">
+                <input class="form-main__input" type="tel" placeholder="Ваш телефон">
+                <button class="form-main__btn">Отправить заявку</button>
+                <div class="form-main__btn__info">
+                    <p>Нажимая кнопку, вы даёте согласие на <a class="btn--info__link" href="#">обработку персональных данных</a></p>
+                </div>
+            </form>
+
+
+        </div>
+
+    </div>
+</div> <!-- Form -->
+
+<div class="product" data-scrollspy = "#reviews"  id="reviews">
+    <div class="container">
+        <div class="product--item">
+
+            <div class="product--items__info">
+                <div class="product--items__title">
+                    <p>Что пишут участники наших путешествий</p>
+                </div>
+                <div class="product--items__text">
+                    <p>87% участников приходят по личной рекомендации от друзей. А каждый 4-ый путешествует с нами больше двух раз!</p>
+                </div>
+
+                <button class="product--items__button">Читать отзывы</button>
+            </div>
+
+            <div class="reviews--items__img" data-aos="fade-up">
+                <img src="./assets/img/reviews/1.jpg" alt="product">
+            </div>
+
+        </div>
+    </div>
+</div> <!-- Reviews -->
+
+<div class="footer">
+    <div class="container">
+
+        <div class="footer--main">
+
+            <div class="footer-left">
+
+                <a href="index.html"><img class="footer-logo" src="./assets/img/footer/logo.png" alt="footer-logo"></a>
+
+                <div class="footer-policy">
+                    <a class="footer-policy__link" href="#">Политика конфиденциальности</a>
+                </div>
+
+                <div class="footer-personal">
+                    <a class="footer-personal__link" href="#">Соглашение на обработку персональных данных</a>
+                </div>
+
+            </div>
+
+
+            <div class="footer-right">
+                <a href="#"><img class="footer-icon__youtube" src="./assets/img/footer/you.png" alt="youtube"></a>
+                <a href="#"><img class="footer-icon__facebook" src="./assets/img/footer/fb.png" alt="facebook"></a>
+                <a href="#"><img class="footer-icon__twitter" src="./assets/img/footer/twitter.png" alt="twitter"></a>
+                <a href="#"><img class="footer-icon__vk" src="./assets/img/footer/vk.png" alt="vk"></a>
+            </div>
+
+        </div>
+
+    </div>
+</div> <!-- Footer -->
+
+
+<script src ="./assets/js/aos.js"></script>
+<script src="assets/js/script.js"></script>
+</body>
+</html>
